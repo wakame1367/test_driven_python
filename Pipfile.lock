@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "fe5873b873c525eda6223e20fd22f4c9ec625addba1f0a5f9eb3c9b94c1d8b2d"
+            "sha256": "313d363c7035af672bb5755ec9726cee32582109b71d0e91079674e6f4fee675"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -15,7 +15,11 @@
             }
         ]
     },
-    "default": {},
+    "default": {
+        "tasks": {
+            "path": "./tasks_proj"
+        }
+    },
     "develop": {
         "atomicwrites": {
             "hashes": [
