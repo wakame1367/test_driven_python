@@ -18,4 +18,4 @@ def test_replace():
     task_before = Task("finish book", "brian", False)
     task_after = task_before._replace(id=10, done=True)
     task_expected = Task("finish book", "brian", True, 10)
-    assert task_after == task_after
+    assert task_after == task_expected
