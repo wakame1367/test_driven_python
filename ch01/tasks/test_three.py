@@ -6,7 +6,7 @@ Task.__new__.__defaults__ = (None, None, False, None)
 
 def test_defaults():
     task_1 = Task()
-    task_2 = Task(None, None, None, None)
+    task_2 = Task(None, None, False, None)
     assert task_1 == task_2
 
 
