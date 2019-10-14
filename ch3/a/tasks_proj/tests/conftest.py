@@ -17,7 +17,6 @@ def tasks_db(tmpdir):
     tasks.stop_tasks_db()
 
 
-
 # Reminder of Task constructor interface
 # Task(summary=None, owner=None, done=False, id=None)
 # summary is required
